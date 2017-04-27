@@ -2,6 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import createTextMaskInputElement
   from '../../core/src/createTextMaskInputElement'
+import conformToMask
+  from '../../core/src/conformToMask.js'
+
 
 export default class MaskedInput extends React.Component {
   initTextMask() {
@@ -71,4 +74,4 @@ MaskedInput.propTypes = {
   showMask: PropTypes.bool,
 }
 
-export {default as conformToMask} from '../../core/src/conformToMask.js'
+export { conformToMask }
