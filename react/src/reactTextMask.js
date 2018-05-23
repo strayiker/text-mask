@@ -5,7 +5,6 @@ import createTextMaskInputElement
 import conformToMask
   from '../../core/src/conformToMask.js'
 
-
 export default class MaskedInput extends React.Component {
   constructor(...args) {
     super(...args)
@@ -92,4 +91,4 @@ MaskedInput.defaultProps = {
   render: (ref, props) => <input ref={ref} {...props} />
 }
 
-export { conformToMask }
+export {conformToMask}
